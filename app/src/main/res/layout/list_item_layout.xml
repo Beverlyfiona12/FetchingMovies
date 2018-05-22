@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#65dc10"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrong Turn"
+        android:textColor="#811dbf"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:textColor="#48997e"
+        android:text="2000"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horror"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="71dp" />
+</android.support.constraint.ConstraintLayout>
